@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/vanlife/static/css/main.d3d5828d.css",
-    "main.js": "/vanlife/static/js/main.ade0153c.js",
+    "main.js": "/vanlife/static/js/main.6de856c1.js",
     "index.html": "/vanlife/index.html",
     "main.d3d5828d.css.map": "/vanlife/static/css/main.d3d5828d.css.map",
-    "main.ade0153c.js.map": "/vanlife/static/js/main.ade0153c.js.map"
+    "main.6de856c1.js.map": "/vanlife/static/js/main.6de856c1.js.map"
   },
   "entrypoints": [
     "static/css/main.d3d5828d.css",
-    "static/js/main.ade0153c.js"
+    "static/js/main.6de856c1.js"
   ]
 }
