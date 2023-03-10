@@ -9,7 +9,7 @@ export function AuthRequired() {
 
   if (!auth.token) {
     return <Navigate
-      to="/login"
+      to="/vanlife/login"
       state={{ message: "You should login first:", from: location.pathname }}
       replace />
   }

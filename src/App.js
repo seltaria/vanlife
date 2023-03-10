@@ -25,8 +25,8 @@ import { AuthRequired } from "./Components/AuthRequired.jsx";
 export function App() {
 
   const router = createBrowserRouter(createRoutesFromElements(
-    <Route element={<Layout />}>
-      <Route path="/" element={<Home />} />
+    <Route path="vanlife" element={<Layout />}>
+      <Route index element={<Home />} />
       <Route path="about" element={<About />} />
       <Route path="vans" element={<Vans />} loader={vansLoader} errorElement={<Error />} />
       <Route path="vans/:id" element={<VanDetail />} />
@@ -45,7 +45,7 @@ export function App() {
         </Route>
       </Route>
 
-      <Route path="/login" element={<LoginPage />} action={loginAction} />
+      <Route path="/vanlife/login" element={<LoginPage />} action={loginAction} />
       <Route path="*" element={<ErrorPage />} />
     </Route>
   ))

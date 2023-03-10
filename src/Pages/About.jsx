@@ -14,7 +14,7 @@ export function About() {
         </div>
         <div className="about-block">
           <div className="about-block-text">Your destination is waiting. Your van is ready.</div>
-          <Link className="about-explore" to="/vans">Explore our vans</Link>
+          <Link className="about-explore" to="/vanlife/vans">Explore our vans</Link>
         </div>
       </div>
     </section>

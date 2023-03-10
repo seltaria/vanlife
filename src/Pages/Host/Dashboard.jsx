@@ -33,7 +33,7 @@ export function Dashboard() {
       </div>
       <div className="dashboard-score">
         <div className="container">
-          <div><b>Review score</b> <img style={{ transform: "translate(0, 4px)" }} src="./../img/star.png" alt="star" /> <b>5.0</b>/5</div>
+          <div><b>Review score</b> <img style={{ transform: "translate(0, 4px)" }} src="/vanlife/img/star.png" alt="star" /> <b>5.0</b>/5</div>
         </div>
       </div>
       <div className="dashboard-vanlist container">

@@ -36,7 +36,7 @@ export function LoginPage() {
         <h2>Sign in to your account</h2>
         {data?.error && <h4 style={{ marginTop: 0, color: "red" }}>{data.error}</h4>}
 
-        <Form method="post" action="/login">
+        <Form method="post" action="/vanlife/login">
           <input
             name="email"
             type="email"
